@@ -1,0 +1,30 @@
+MATLAB 5.0 MAT-file, Platform: MACI64, Created on: Tue Dec 15 21:36:38 2020 
+########################
+surf(X,Y,Z) % 此 MATLAB 函数 创建一个三维曲面图，它是一个具有实色边和实色面的三维曲面。该函数将矩阵 Z 中的值绘制为由 X 和 Y 定义的 x-y
+    平面中的网格上方的高度。曲面的颜色根据 Z 指定的高度而变化。
+
+    surf(X,Y,Z)
+    surf(X,Y,Z,C)
+    surf(Z)
+    surf(Z,C)
+    surf(ax,___)
+    surf(___,Name,Value)
+    s = surf(___)
+
+contour(X,Y,Z) %  此 MATLAB 函数 创建一个包含矩阵 Z 的等值线的等高线图，其中 Z 包含 x-y 平面上的高度值。MATLAB 会自动选择要显示的等高线。Z
+    的列和行索引分别是平面中的 x 和 y 坐标。
+
+    contour(Z)
+    contour(X,Y,Z)
+    contour(___,levels)
+    contour(___,LineSpec)
+    contour(___,Name,Value)
+    contour(ax,___)
+    M = contour(___)
+
+logspace(a,b,n) % 此 MATLAB 函数 生成一个由在 10^a 和 10^b（10 的 N 次幂）之间的 50 个对数间距点组成的行向量 y。logspace
+    函数对于创建频率向量特别有用。该函数是 linspace 和:运算符的对数等价函数。
+    y = logspace(a,b)
+    y = logspace(a,b,n)
+    y = logspace(a,pi)
+    y = logspace(a,pi,n)
